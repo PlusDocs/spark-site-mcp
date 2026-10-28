@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "spark",
+  "version": "1.0.0",
+  "description": "Build, change, check and publish Spark sites and apps from your AI assistant.",
+  "author": {
+    "name": "Spark",
+    "email": "support@spark.site",
+    "url": "https://spark.site"
+  },
+  "homepage": "https://spark.site",
+  "repository": "https://github.com/PlusDocs/spark-site-mcp",
+  "license": "MIT",
+  "keywords": [
+    "spark",
+    "website-builder",
+    "app-builder",
+    "ai-app-builder",
+    "no-code",
+    "websites",
+    "web-apps",
+    "publish",
+    "mcp"
+  ]
+}

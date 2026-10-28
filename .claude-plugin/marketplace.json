@@ -1,0 +1,22 @@
+{
+  "name": "spark",
+  "owner": {
+    "name": "Spark",
+    "email": "support@spark.site",
+    "url": "https://spark.site"
+  },
+  "metadata": {
+    "description": "The official Spark plugin: build, change and publish Spark sites and apps from your AI assistant."
+  },
+  "plugins": [
+    {
+      "name": "spark",
+      "displayName": "Spark",
+      "description": "Build, change, check and publish Spark sites and apps from your AI assistant.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "source": "./",
+      "homepage": "https://spark.site"
+    }
+  ]
+}
