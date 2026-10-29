@@ -1,12 +1,12 @@
 ---
 name: build-with-spark
-description: Build, change, check and publish Spark sites and apps with the Spark MCP tools. Use when the user asks to build a website, web app, store or AI chat app, or to change, check or publish one of their Spark projects, and the spark MCP server is connected.
+description: Build and run a business on Spark with the Spark MCP tools. Use when the user wants to start or run a business online (a website, store, booking site or AI app with hosting, customer accounts, payments, email and marketing), or to change, check or publish one of their Spark projects, and the spark MCP server is connected.
 argument-hint: [describe the site, app or change you want]
 ---
 
 # Building with Spark
 
-The `spark` MCP server works in a Spark project's chat the way the user would in Spark: Spark designs, writes and publishes the code, and you send the requests, follow the work and check the result. When invoked as a command, the user's request is "$ARGUMENTS".
+The `spark` MCP server works in a Spark project's chat the way the user would in Spark. A project is a whole business: its site or app, with hosting, customer accounts, payments, email and marketing built into the platform. Spark designs, writes and publishes the code, and you send the requests, follow the work and check the result. When invoked as a command, the user's request is "$ARGUMENTS".
 
 ## Examples
 

@@ -6,14 +6,14 @@
     "url": "https://spark.site"
   },
   "metadata": {
-    "description": "The official Spark plugin: build, change and publish Spark sites and apps from your AI assistant."
+    "description": "The official Spark plugin: build and run a business from your AI assistant, with hosting, accounts, payments, email and marketing built in."
   },
   "plugins": [
     {
       "name": "spark",
       "displayName": "Spark",
-      "description": "Build, change, check and publish Spark sites and apps from your AI assistant.",
-      "version": "1.0.0",
+      "description": "Build and run a business from your AI assistant: sites and apps with hosting, customer accounts, payments, email and marketing built in.",
+      "version": "1.0.1",
       "category": "productivity",
       "source": "./",
       "homepage": "https://spark.site"

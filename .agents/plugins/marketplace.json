@@ -10,7 +10,7 @@
         "source": "local",
         "path": "./"
       },
-      "description": "Build, change, check and publish Spark sites and apps from your AI assistant.",
+      "description": "Build and run a business from your AI assistant: sites and apps with hosting, customer accounts, payments, email and marketing built in.",
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
