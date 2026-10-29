@@ -29,6 +29,7 @@
     "shortDescription": "Build and run a business",
     "longDescription": "Use Spark in Codex to build and run a business: plan a site or app, ask Spark for changes, answer its questions, check the preview and publish, all from the chat. Hosting, customer accounts, payments, email and marketing are built into the platform.",
     "developerName": "Spark",
+    "category": "Productivity",
     "capabilities": [
       "Interactive",
       "Read",
