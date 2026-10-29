@@ -1,7 +1,7 @@
 {
   "name": "spark",
-  "version": "1.0.0",
-  "description": "Build, change, check and publish Spark sites and apps from your AI assistant.",
+  "version": "1.0.1",
+  "description": "Build and run a business from your AI assistant: sites and apps with hosting, customer accounts, payments, email and marketing built in.",
   "author": {
     "name": "Spark",
     "email": "support@spark.site",
@@ -12,21 +12,22 @@
   "license": "MIT",
   "keywords": [
     "spark",
+    "business",
+    "small-business",
     "website-builder",
     "app-builder",
     "ai-app-builder",
-    "no-code",
-    "websites",
-    "web-apps",
-    "publish",
+    "hosting",
+    "payments",
+    "ecommerce",
     "mcp"
   ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Spark",
-    "shortDescription": "Build and publish sites and apps",
-    "longDescription": "Use Spark in Codex to plan a new site or app, ask Spark for changes, follow its work, answer its questions, look at the preview and publish, all from the chat.",
+    "shortDescription": "Build and run a business",
+    "longDescription": "Use Spark in Codex to build and run a business: plan a site or app, ask Spark for changes, answer its questions, check the preview and publish, all from the chat. Hosting, customer accounts, payments, email and marketing are built into the platform.",
     "developerName": "Spark",
     "capabilities": [
       "Interactive",
@@ -37,7 +38,7 @@
     "privacyPolicyURL": "https://spark.site/privacy-policy",
     "termsOfServiceURL": "https://spark.site/terms",
     "defaultPrompt": [
-      "Plan a new Spark project with me: a booking site for my pottery classes",
+      "Plan a new Spark project with me: a booking site for my pottery classes that takes payments",
       "What is Spark working on in my projects?",
       "Ask Spark to add a pricing page to my site, then show me how it looks on a phone"
     ]

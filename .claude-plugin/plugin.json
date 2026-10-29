@@ -1,8 +1,8 @@
 {
   "name": "spark",
   "displayName": "Spark",
-  "version": "1.0.0",
-  "description": "Build, change, check and publish Spark sites and apps from your AI assistant.",
+  "version": "1.0.1",
+  "description": "Build and run a business from your AI assistant: sites and apps with hosting, customer accounts, payments, email and marketing built in.",
   "author": {
     "name": "Spark",
     "email": "support@spark.site",
@@ -13,13 +13,14 @@
   "license": "MIT",
   "keywords": [
     "spark",
+    "business",
+    "small-business",
     "website-builder",
     "app-builder",
     "ai-app-builder",
-    "no-code",
-    "websites",
-    "web-apps",
-    "publish",
+    "hosting",
+    "payments",
+    "ecommerce",
     "mcp"
   ]
 }

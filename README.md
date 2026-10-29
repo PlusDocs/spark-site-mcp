@@ -1,9 +1,9 @@
 # Spark MCP
 
-Build, change, check and publish [Spark](https://spark.site) sites and apps from your AI assistant. This is the official plugin for Spark's remote [MCP](https://modelcontextprotocol.io/) server, for ChatGPT, Claude, Claude Code, Cursor, Codex and any other MCP client.
+Build and run a business from your AI assistant with [Spark](https://spark.site): sites and apps with hosting, customer accounts, payments, email and marketing built into the platform. This is the official plugin for Spark's remote [MCP](https://modelcontextprotocol.io/) server, for ChatGPT, Claude, Claude Code, Cursor, Codex and any other MCP client.
 
 ```
-You:    Plan a new Spark project with me: a booking site for my pottery classes.
+You:    Plan a new Spark project with me: a booking site for my pottery classes that takes payments.
 Agent:  Spark has a plan for Clay Studio Bookings. Shall I create it?
 You:    Yes.
 Agent:  Spark is building it. Your preview: https://app.spark.site/projects/…
@@ -11,7 +11,14 @@ Agent:  Spark is building it. Your preview: https://app.spark.site/projects/…
 
 ## What Spark is
 
-Spark builds AI-native sites and apps from a description, and runs them. You say what you want, and Spark designs it, writes the code and publishes it at its own address. A project is a whole business: a public site that can sell and take payments, and internal tools for running it. Spark hosts everything, on a `spark.site` address or your own domain.
+Spark is a platform for building and running a business. You describe what you want, and Spark designs it, writes the code and publishes it. A project is the whole business, and what it needs to run is built into the platform:
+
+- **Hosting** on a `spark.site` address or your own domain.
+- **Customer accounts:** sign-in for your customers, and what each one has bought.
+- **Payments** through Stripe: one-off sales and subscriptions, paid out to you.
+- **Email** to your customers.
+- **Marketing:** a marketing plan for the business and the content to go with it.
+- **Internal tools** for running it, such as customer and payments dashboards, which Spark builds and changes like the site.
 
 Through this server, your assistant works in a project's chat the way you would in Spark. It sends your requests, follows Spark while it works, brings Spark's questions and approvals back to you, looks at the preview and publishes.
 
@@ -24,7 +31,7 @@ Through this server, your assistant works in a project's chat the way you would 
 
 ## Requirements
 
-A Spark account, on any plan. The Free plan includes one-time credits for building, and you can publish on a `spark.site` address. See [pricing](https://spark.site/pricing).
+A Spark account, on any plan. The Free plan includes one-time credits for building, and you can publish on a `spark.site` address. Taking payments and using your own domain need a paid plan. See [pricing](https://spark.site/pricing).
 
 You don't need an API key: you sign in with your Spark account the first time you use the server.
 
@@ -83,9 +90,10 @@ In clients that support [MCP Apps](https://modelcontextprotocol.io/extensions/ap
 
 ## Example prompts
 
-- "Plan a new Spark project with me: a booking site for my pottery classes."
+- "Plan a new Spark project with me: a booking site for my pottery classes that takes payments."
 - "What is Spark working on in my Harbor Tours project?"
 - "Ask Spark to add a pricing page with our three class packages, then check it on a phone."
+- "Ask Spark to email my customers about the new spring classes."
 - "Send Spark this menu and ask it to put it on the home page: https://example.com/menu.pdf"
 - "Publish Harbor Tours."
 
