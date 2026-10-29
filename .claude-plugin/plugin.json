@@ -9,6 +9,7 @@
     "url": "https://spark.site"
   },
   "homepage": "https://spark.site",
+  "privacyPolicyUrl": "https://spark.site/privacy-policy",
   "repository": "https://github.com/PlusDocs/spark-site-mcp",
   "license": "MIT",
   "keywords": [
